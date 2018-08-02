@@ -5,7 +5,7 @@ cl /c TestDll.cpp
 
 ::link obj
 ::link TestDll.obj /DLL /NOENTRY /EXPORT:GetGreeting
-link TestDll.obj /DLL /NOENTRY
+link TestDll.obj /DLL
 
 ::explicit link dll in client
 cl ClientExplicit.cpp
