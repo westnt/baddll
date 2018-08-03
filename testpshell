@@ -1,0 +1,3 @@
+echo 'i am powershell'
+ls
+echo 'i did ls'
